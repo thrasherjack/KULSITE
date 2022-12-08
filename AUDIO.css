@@ -1,0 +1,58 @@
+#spin{
+    position: fixed;
+    left: 1em;
+    top: 1em;
+  scale: 75%;
+  z-index: 5;
+  
+  
+  }
+  
+  #spin:hover{
+    cursor: pointer;
+  
+  }
+
+
+  html, body {
+    height: 100%;
+    background: black;
+  }
+  
+  .scroll-animations-example > .scrollsection {
+    padding: 15vh 10vh 10vh 10vmax;
+    min-width: 300vh;
+    
+  }
+  .scroll-animations-example > .scrollsection > .item {
+    display: inline-block;
+    position: relative;
+    margin: 0 -30vh 0 3vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+   
+
+    
+  
+  }
+  .scroll-animations-example > .scrollsection > .item::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    
+    
+   
+  }
+  .scroll-animations-example > .scrollsection > .item {
+    height: 60vh;
+    width: 45vh;
+  }
+
+
+
+#RUDEsc{
+    position: absolute;
+    top: 10em;
+}
+
